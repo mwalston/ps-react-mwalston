@@ -1,5 +1,4 @@
 import React from 'react';
-// @ts-ignore
 import HelloWorld from 'ps-react/HelloWorld';
 
 /** Custom message */
