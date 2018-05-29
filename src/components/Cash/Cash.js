@@ -9,7 +9,7 @@ function Cash({amount, showDecimal}) {
 
 Cash.propTypes = {
     /** Amount to display as money */
-    amount: PropTypes.string,
+    amount: PropTypes.string.isRequired,
     showDecimal: PropTypes.bool
 };
 Cash.defaultProps = {
